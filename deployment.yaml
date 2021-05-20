@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
         - name: eureka
-          image: vogetisameer12/eureka-server:latest
+          image: vogetisameer12/spring-cloud-eureka:latest
           ports:
             - containerPort: 8761
           resources:
